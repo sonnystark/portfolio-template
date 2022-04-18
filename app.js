@@ -2,6 +2,8 @@ const express = require("express");
 const { log } = require("console");
 const fs = require("fs");
 const path = require("path");
+const bodyParser = require("body-parser");
+const nodemailer = require("nodemailer");
 const logger = require("morgan");
 require("dotenv").config();
 const app = express();
